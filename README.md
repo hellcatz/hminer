@@ -16,10 +16,11 @@ Options:
   -p x, --pwd=x, --pass=x, --password=x
                         Password parameters for pool; overridden if in URL
 ~~~~
-### x86_64 Download:
-  > Windows: [Download](https://github.com/hellcatz/hminer/releases)  [vc_redist.x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
-    
-  > Linux  : [Download](https://github.com/hellcatz/hminer/releases)
+### [Download](https://github.com/hellcatz/hminer/releases)
+  > Windows: Requires Visual C++ 2022 Runtime [vc_redist.x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+  
+  > Linux  : May be needed `sudo apt install libsodium-dev`
+  >
 
 ### Known Hashrates:
   Intel i9-7900X (18 threads): 20.00MH/s  
