@@ -26,6 +26,7 @@ Options:
   Intel i9-7900X (18 threads): 20.00MH/s  
   Intel i7-8700K (10 threads): 12.50MH/s  
   Intel i7-6700K (6 threads): 6.50MH/s  
+  Intel i7-4790K (7 threads): 7.70MH/s  
   Intel i7-4170HQ (5 threads): 4.60MH/s  
   Intel i7-5500U (3 threads): 2.45MH/s  
   Intel i5-8600K (6 threads): 10.45MH/s  
