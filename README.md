@@ -1,6 +1,6 @@
 ~~~~
 ----------------------------------------------------------------------
- Hellminer 0.55 [VerusHash 2.2 + PBaaS] Linux
+ Hellminer 0.56.2 [VerusHash 2.2 + PBaaS] Linux
 ----------------------------------------------------------------------
 Usage: hellminer [options]
 
@@ -19,7 +19,7 @@ Options:
 ### [Download](https://github.com/hellcatz/hminer/releases)
   > Windows: Requires Visual C++ 2022 Runtime [vc_redist.x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
   
-  > Linux  : May be needed `sudo apt install libsodium-dev`
+  > Linux  : May need `sudo apt install libsodium-dev`
   >
 
 ### Known Hashrates:
