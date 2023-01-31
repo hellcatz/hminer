@@ -16,11 +16,15 @@ Options:
   -p x, --pwd=x, --pass=x, --password=x
                         Password parameters for pool; overridden if in URL
 ~~~~
-### [Download](https://github.com/hellcatz/hminer/releases)
+### Requirements
+A procesor with SSE4 or AVX, AVX2 intrinsic instruction set.  
+If your processor does not support AVX, do not download the AVX version (it will fail)
   > Windows: Requires Visual C++ 2022 Runtime [vc_redist.x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
   
   > Linux  : May need `sudo apt install libsodium-dev`
   >
+### [Download](https://github.com/hellcatz/hminer/releases)
+
 
 ### Known Hashrates:
   Intel i9-7900X (18 threads): 20.00MH/s  
