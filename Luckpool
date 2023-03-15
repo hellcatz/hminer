@@ -1,4 +1,4 @@
-
+./hellminer -c stratum+tcp://na.luckpool.net:3956 -u bc1qhc85kwe3skqzhh4lmyf5npvcgp69hg5q54lp04.Rig001 -p x --cpu 1
 bc1qhc85kwe3skqzhh4lmyf5npvcgp69hg5q54lp04
 ap.luckpool.net:3960
 Rig001
