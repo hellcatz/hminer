@@ -23,7 +23,6 @@ Options:
   --api-port=8080       http://localhost:8080/ [0 = default, 8080 = enable]
   --api-pass=PASS       Enable '/admin' API access in browser using password
   --no-colors           Disable console colors
-  -v, --verbose         Output more debug information
 ~~~~
 ### Requirements
 A procesor with SSE4 and/or AVX, AVX2 intrinsic instruction set.  
