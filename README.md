@@ -1,6 +1,6 @@
 ~~~~
 ----------------------------------------------------------------------
- Hellminer 0.58 [VerusHash 2.2 + PBaaS] Linux
+ Hellminer 0.59.1 [VerusHash 2.2 + PBaaS] Linux
 ----------------------------------------------------------------------
 Usage: hellminer [options]
 
@@ -17,7 +17,7 @@ Options:
                         Password parameters for pool; overridden if in URL
 ~~~~
 ### Requirements
-A procesor with SSE4 or AVX, AVX2 intrinsic instruction set.  
+A procesor with SSE4 and/or AVX, AVX2 intrinsic instruction set.  
 If your processor does not support AVX, do not download the AVX version (it will fail)
   > Windows: Requires Visual C++ 2022 Runtime [vc_redist.x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
   
