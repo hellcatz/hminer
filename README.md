@@ -15,6 +15,26 @@ Options:
                         Specify wallet address; overridden if in URL
   -p x, --pwd=x, --pass=x, --password=x
                         Password parameters for pool; overridden if in URL
+  --dual-pool=URL       Split hashing between two pools:
+                        stratum+ssl://pool.verus.io:19999 * Note, this only
+                        works good on systems capable of at least 5+ MH/s
+  --dual-pass=URL       If needed, specify a different password for the dual
+                        pool.
+  --cpu=N, --threads=N  Use N threads on CPU (default: 1, max_threads: 254)
+  --priority=N          priority; 1=normal,2=lower (default: 1)
+  --numa=N              experimental numa node selection support: 1, 2, 3, 4
+  --affinity            experimental auto thread affinity
+  --ssl, --tls          Force using SSL connection
+  --keep-alive          Send 'keepalived' stratum method to pool for
+                        stimulating data flow after 30 seconds of no data
+                        flow. *Note special feature not all pools support
+  --ping                Send 'mining.ping' stratum method to pool for
+                        stimulating data flow after 30 seconds of no data
+                        flow. *Note special feature not all pools support
+  --api-port=8080       http://localhost:8080/ [0 = default, 8080 = enable]
+  --api-pass=PASS       Enable '/admin' API access in browser using password
+  --no-colors           Disable console colors
+  -v, --verbose         Output more debug information
 ~~~~
 ### Requirements
 A procesor with SSE4 and/or AVX, AVX2 intrinsic instruction set.  
