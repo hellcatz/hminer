@@ -1,3 +1,5 @@
+PROJECT DEPRECATED
+
 ~~~~
 ----------------------------------------------------------------------
  Hellminer 0.59.1 [VerusHash 2.2 + PBaaS] Linux
